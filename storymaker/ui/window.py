@@ -166,7 +166,7 @@ class StoryThemeSelector(Gtk.Box):
         self.custom_entry.set_hexpand(True)
         custom_box.append(self.custom_entry)
 
-        custom_btn = Gtk.Button(label=_("Starta!"))
+        custom_btn = Gtk.Button(label=_("Start!"))
         custom_btn.add_css_class("suggested-action")
         custom_btn.connect("clicked", self._on_custom_theme)
         custom_box.append(custom_btn)
