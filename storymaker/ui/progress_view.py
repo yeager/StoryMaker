@@ -54,7 +54,7 @@ class ProgressView(Gtk.Box):
         content.append(header_box)
 
         # Stats grid
-        stats_group = Adw.PreferencesGroup(title=_("Statistik"))
+        stats_group = Adw.PreferencesGroup(title=_("Statistics"))
 
         # Stories
         stories_row = Adw.ActionRow(

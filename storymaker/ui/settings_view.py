@@ -35,7 +35,7 @@ class SettingsView(Gtk.Box):
         # AI Provider settings
         ai_group = Adw.PreferencesGroup(
             title=_("AI-inställningar"),
-            description=_("Välj AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."),
+            description=_("Select AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."),
         )
 
         # Provider selection
@@ -65,7 +65,7 @@ class SettingsView(Gtk.Box):
 
         if not self.window.tts.is_available:
             hint_row = Adw.ActionRow(
-                title=_("Installera espeak-ng för uppläsning"),
+                title=_("Install espeak-ng för uppläsning"),
                 subtitle="sudo apt install espeak-ng",
             )
             tts_group.add(hint_row)
@@ -73,7 +73,7 @@ class SettingsView(Gtk.Box):
         content.append(tts_group)
 
         # About section
-        about_group = Adw.PreferencesGroup(title=_("Om StoryMaker"))
+        about_group = Adw.PreferencesGroup(title=_("About StoryMaker"))
         about_row = Adw.ActionRow(
             title="StoryMaker 1.0.0",
             subtitle=_("Interaktiva berättelser med AI och piktogram"),
@@ -82,7 +82,7 @@ class SettingsView(Gtk.Box):
         content.append(about_group)
 
         # Save button
-        save_btn = Gtk.Button(label=_("Spara inställningar"))
+        save_btn = Gtk.Button(label=_("Save inställningar"))
         save_btn.add_css_class("suggested-action")
         save_btn.add_css_class("pill")
         save_btn.set_halign(Gtk.Align.CENTER)
@@ -107,7 +107,7 @@ class SettingsView(Gtk.Box):
         self.window.engine.set_provider(provider, api_key)
 
         # Show confirmation
-        toast = Adw.Toast(title=_("Inställningar sparade!"))
+        toast = Adw.Toast(title=_("Settings sparade!"))
         toast.set_timeout(2)
         # Find the toast overlay or just go back
         self.window.go_back()

@@ -56,7 +56,7 @@ class StoryMakerWindow(Adw.ApplicationWindow):
         """Show story theme selector for a profile."""
         self.current_profile = profile
         view = StoryThemeSelector(self)
-        page = Adw.NavigationPage(title=_("Välj äventyr"), child=view)
+        page = Adw.NavigationPage(title=_("Select äventyr"), child=view)
         self.nav_view.push(page)
 
     def show_story(self, profile, theme):
@@ -81,7 +81,7 @@ class StoryMakerWindow(Adw.ApplicationWindow):
     def show_settings(self):
         """Show settings."""
         view = SettingsView(self)
-        page = Adw.NavigationPage(title=_("Inställningar"), child=view)
+        page = Adw.NavigationPage(title=_("Settings"), child=view)
         self.nav_view.push(page)
 
     def go_back(self):
@@ -115,7 +115,7 @@ class StoryThemeSelector(Gtk.Box):
         self.set_margin_start(24)
         self.set_margin_end(24)
 
-        title = Gtk.Label(label=_("Välj ett tema för din berättelse!"))
+        title = Gtk.Label(label=_("Select ett tema för din berättelse!"))
         title.add_css_class("title-2")
         self.append(title)
 

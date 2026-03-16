@@ -17,7 +17,7 @@ class WelcomeView(Gtk.Box):
         # Header bar with settings button
         header = Adw.HeaderBar()
         settings_btn = Gtk.Button(icon_name="emblem-system-symbolic")
-        settings_btn.set_tooltip_text(_("Inställningar"))
+        settings_btn.set_tooltip_text(_("Settings"))
         settings_btn.connect("clicked", lambda _: self.window.show_settings())
         header.pack_end(settings_btn)
         self.append(header)
@@ -116,7 +116,7 @@ class WelcomeView(Gtk.Box):
         btn_box.append(progress_btn)
 
         edit_btn = Gtk.Button(icon_name="document-edit-symbolic")
-        edit_btn.set_tooltip_text(_("Redigera"))
+        edit_btn.set_tooltip_text(_("Edit"))
         edit_btn.connect("clicked", lambda _, p=profile: self.window.show_profile_editor(p))
         btn_box.append(edit_btn)
 

@@ -42,7 +42,7 @@ class ProfileView(Gtk.Box):
     def _build_ui(self):
         """Build the profile form."""
         header = Adw.HeaderBar()
-        save_btn = Gtk.Button(label=_("Spara"))
+        save_btn = Gtk.Button(label=_("Save"))
         save_btn.add_css_class("suggested-action")
         save_btn.connect("clicked", self._on_save)
         header.pack_end(save_btn)
@@ -65,7 +65,7 @@ class ProfileView(Gtk.Box):
         content.set_margin_end(32)
 
         # Avatar selection
-        avatar_label = Gtk.Label(label=_("Välj din avatar"))
+        avatar_label = Gtk.Label(label=_("Select din avatar"))
         avatar_label.add_css_class("title-4")
         avatar_label.set_xalign(0)
         content.append(avatar_label)
@@ -90,8 +90,8 @@ class ProfileView(Gtk.Box):
         content.append(avatar_flow)
 
         # Name entry
-        name_group = Adw.PreferencesGroup(title=_("Om dig"))
-        self.name_row = Adw.EntryRow(title=_("Namn"))
+        name_group = Adw.PreferencesGroup(title=_("About dig"))
+        self.name_row = Adw.EntryRow(title=_("Name"))
         self.name_row.set_text(self.profile.name)
         name_group.add(self.name_row)
 
@@ -102,7 +102,7 @@ class ProfileView(Gtk.Box):
         name_group.add(self.age_row)
 
         # Language selection
-        self.lang_row = Adw.ComboRow(title=_("Språk"))
+        self.lang_row = Adw.ComboRow(title=_("Language"))
         lang_model = Gtk.StringList.new(["Svenska", "English"])
         self.lang_row.set_model(lang_model)
         self.lang_row.set_selected(0 if self.profile.language == "sv" else 1)
@@ -179,13 +179,13 @@ class ProfileView(Gtk.Box):
     def _on_delete(self, button):
         """Delete the profile after confirmation."""
         dialog = Adw.AlertDialog(
-            heading=_("Ta bort profil?"),
+            heading=_("Delete profil?"),
             body=_("Alla berättelser och framsteg för {name} kommer att raderas.").format(
                 name=self.profile.name
             ),
         )
-        dialog.add_response("cancel", _("Avbryt"))
-        dialog.add_response("delete", _("Ta bort"))
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("delete", _("Delete"))
         dialog.set_response_appearance("delete", Adw.ResponseAppearance.DESTRUCTIVE)
         dialog.connect("response", self._on_delete_response)
         dialog.present(self.window)
