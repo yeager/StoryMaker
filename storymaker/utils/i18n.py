@@ -57,3 +57,7 @@ def get_language():
     """Get the current language code."""
     lang = os.environ.get("LANGUAGE", os.environ.get("LANG", "sv_SE"))
     return lang.split("_")[0].split(".")[0]
+
+# Direct export
+_ = gettext.gettext
+
