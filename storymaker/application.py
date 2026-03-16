@@ -139,7 +139,7 @@ class StoryMakerApp(Adw.Application):
             application_icon=APP_ID,
             developer_name="StoryMaker Team",
             version=APP_VERSION,
-            comments=_("Interaktiva berättelser med AI och piktogram för läsförståelseträning"),
+            comments=_("Interactive stories with AI and pictograms for reading comprehension training"),
             website="https://github.com/yeager/StoryMaker",
             license_type=Gtk.License.GPL_3_0,
         )

@@ -27,9 +27,9 @@ class Progress:
     def reading_level(self) -> str:
         """Simple reading level based on activity."""
         if self.words_read < 500:
-            return _("Nybörjare")
+            return _("Beginners")
         elif self.words_read < 2000:
-            return _("Läsare")
+            return _("Readers")
         elif self.words_read < 5000:
             return _("Bokmal")
-        return _("Mästare")
+        return _("Master")

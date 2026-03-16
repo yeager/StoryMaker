@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the StoryMaker package.
+# This file is distributed under the same license as the storymaker package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: StoryMaker 1.0\n"
+"Project-Id-Version: storymaker 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:51+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: storymaker/application.py:142
-msgid "Interaktiva berättelser med AI och piktogram för läsförståelseträning"
+msgid ""
+"Interactive stories with AI and pictograms for reading comprehension training"
 msgstr ""
 
 #: storymaker/ui/welcome_view.py:20 storymaker/ui/window.py:84
@@ -26,19 +27,19 @@ msgid "Settings"
 msgstr ""
 
 #: storymaker/ui/welcome_view.py:38
-msgid "Skapa magiska berättelser med AI!"
+msgid "Create magical stories with AI!"
 msgstr ""
 
 #: storymaker/ui/welcome_view.py:43
-msgid "Vem läser idag?"
+msgid "Who is reading today?"
 msgstr ""
 
 #: storymaker/ui/welcome_view.py:63
-msgid "➕ Ny läsare"
+msgid "➕ New reader"
 msgstr ""
 
 #: storymaker/ui/welcome_view.py:100
-msgid "år"
+msgid "year"
 msgstr ""
 
 #: storymaker/ui/welcome_view.py:108
@@ -54,15 +55,15 @@ msgid "Edit"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:42
-msgid "📝 Läsförståelse"
+msgid "📝 Reading comprehension"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:82
-msgid "Kunde inte skapa quiz. Försök igen!"
+msgid "Could not create quiz. Please try again!"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:103
-msgid "Fråga"
+msgid "Question"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:171
@@ -70,15 +71,15 @@ msgid "Resultat"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:184
-msgid "🌟 Fantastiskt! Du förstod berättelsen jättebra!"
+msgid "🌟 Fantastic! You understood the story very well!"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:186
-msgid "👍 Bra jobbat! Du förstod det mesta!"
+msgid "👍 Good job! You understood most of it!"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:188
-msgid "💪 Bra försök! Läs berättelsen igen och försök sen!"
+msgid "💪 Nice try! Read the story again and then try!"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:203
@@ -90,15 +91,15 @@ msgid "Profil"
 msgstr ""
 
 #: storymaker/ui/window.py:59
-msgid "Select äventyr"
+msgid "Select adventure"
 msgstr ""
 
 #: storymaker/ui/window.py:72
-msgid "Läsförståelse"
+msgid "Reading comprehension"
 msgstr ""
 
 #: storymaker/ui/window.py:118
-msgid "Select ett tema för din berättelse!"
+msgid "Select a theme for your story!"
 msgstr ""
 
 #: storymaker/ui/window.py:149
@@ -110,15 +111,15 @@ msgid "Starta!"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:37
-msgid "AI-inställningar"
+msgid "AI settings"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:38
-msgid "Select AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."
+msgid "Select AI service and enter API key. Without a key, demo mode is used."
 msgstr ""
 
 #: storymaker/ui/settings_view.py:42
-msgid "AI-tjänst"
+msgid "AI service"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:50
@@ -126,15 +127,15 @@ msgid "API-nyckel"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:57
-msgid "Uppläsning (TTS)"
+msgid "Reading out (TTS)"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:59
-msgid "Tillgänglig"
+msgid "Available"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:59
-msgid "Ej tillgänglig"
+msgid "Not available"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:61
@@ -142,7 +143,7 @@ msgid "Text-till-tal"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:68
-msgid "Install espeak-ng för uppläsning"
+msgid "Install espeak-ng for reading aloud"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:76
@@ -150,11 +151,11 @@ msgid "About StoryMaker"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:79
-msgid "Interaktiva berättelser med AI och piktogram"
+msgid "Interactive stories with AI and pictograms"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:85
-msgid "Save inställningar"
+msgid "Save settings"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:110
@@ -178,7 +179,7 @@ msgid "Name"
 msgstr ""
 
 #: storymaker/ui/profile_view.py:100
-msgid "Ålder"
+msgid "Age"
 msgstr ""
 
 #: storymaker/ui/profile_view.py:105
@@ -195,7 +196,7 @@ msgstr ""
 
 #: storymaker/ui/profile_view.py:183
 #, python-brace-format
-msgid "Alla berättelser och framsteg för {name} kommer att raderas."
+msgid "All stories and progress for {name} will be deleted."
 msgstr ""
 
 #: storymaker/ui/profile_view.py:187
@@ -207,7 +208,7 @@ msgid "Delete"
 msgstr ""
 
 #: storymaker/ui/story_view.py:37
-msgid "Läs upp"
+msgid "Read up"
 msgstr ""
 
 #: storymaker/ui/story_view.py:43
@@ -215,7 +216,7 @@ msgid "Hem"
 msgstr ""
 
 #: storymaker/ui/story_view.py:111
-msgid "Kunde inte skapa berättelsen. Försök igen!"
+msgid "Could not create the story. Try again!"
 msgstr ""
 
 #: storymaker/ui/story_view.py:127
@@ -227,19 +228,19 @@ msgid "Kapitel"
 msgstr ""
 
 #: storymaker/ui/story_view.py:189
-msgid "Vad ska hända nu?"
+msgid "What will happen next?"
 msgstr ""
 
 #: storymaker/ui/story_view.py:221
-msgid "Något gick fel. Försök igen!"
+msgid "Something went wrong. Try again!"
 msgstr ""
 
 #: storymaker/ui/story_view.py:235
-msgid "🎉 Grattis! Du har avslutat berättelsen!"
+msgid "🎉 Congratulations! You have finished the story!"
 msgstr ""
 
 #: storymaker/ui/story_view.py:242
-msgid "📝 Gör quiz!"
+msgid "📝 Take the quiz!"
 msgstr ""
 
 #: storymaker/ui/story_view.py:248
@@ -247,11 +248,11 @@ msgid "🏠 Tillbaka hem"
 msgstr ""
 
 #: storymaker/ui/story_view.py:290
-msgid "Försök igen"
+msgid "Try again"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:48
-msgid "Nivå"
+msgid "Level"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:57
@@ -259,7 +260,7 @@ msgid "Statistics"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:61
-msgid "Berättelser"
+msgid "Narratives"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:62
@@ -271,23 +272,23 @@ msgid "totalt"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:69
-msgid "Ord lästa"
+msgid "Words read"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:77
-msgid "Kapitel lästa"
+msgid "Chapters read"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:85
-msgid "Quiz genomförda"
+msgid "Quizzes completed"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:93
-msgid "Genomsnittlig poäng"
+msgid "Average score"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:102
-msgid "Läsframsteg"
+msgid "Reading progress"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:109
@@ -295,11 +296,11 @@ msgid "ord"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:115
-msgid "Mål: Läs 5000 ord!"
+msgid "Goal: Read 5000 words!"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:126
-msgid "Senaste berättelser"
+msgid "Latest stories"
 msgstr ""
 
 #: storymaker/ui/progress_view.py:131
@@ -307,11 +308,11 @@ msgid "kapitel"
 msgstr ""
 
 #: storymaker/models/progress.py:30
-msgid "Nybörjare"
+msgid "Beginners"
 msgstr ""
 
 #: storymaker/models/progress.py:32
-msgid "Läsare"
+msgid "Readers"
 msgstr ""
 
 #: storymaker/models/progress.py:34
@@ -319,5 +320,5 @@ msgid "Bokmal"
 msgstr ""
 
 #: storymaker/models/progress.py:35
-msgid "Mästare"
+msgid "Master"
 msgstr ""

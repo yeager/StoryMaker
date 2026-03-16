@@ -39,7 +39,7 @@ class QuizView(Gtk.Box):
         self.content.set_vexpand(True)
 
         # Title
-        title = Gtk.Label(label=_("📝 Läsförståelse"))
+        title = Gtk.Label(label=_("📝 Reading comprehension"))
         title.add_css_class("title-2")
         self.content.append(title)
 
@@ -79,7 +79,7 @@ class QuizView(Gtk.Box):
             if questions:
                 self._show_question()
             else:
-                self._show_error(_("Kunde inte skapa quiz. Försök igen!"))
+                self._show_error(_("Could not create quiz. Please try again!"))
 
         def on_error(e):
             self.spinner.set_spinning(False)
@@ -100,7 +100,7 @@ class QuizView(Gtk.Box):
 
         q = self.questions[self.current_question]
         self.progress_label.set_text(
-            f"{_('Fråga')} {self.current_question + 1} / {len(self.questions)}"
+            f"{_("Question")} {self.current_question + 1} / {len(self.questions)}"
         )
 
         # Question text
@@ -181,11 +181,11 @@ class QuizView(Gtk.Box):
         # Encouragement message
         percentage = (self.score / len(self.questions)) * 100 if self.questions else 0
         if percentage >= 80:
-            msg = _("🌟 Fantastiskt! Du förstod berättelsen jättebra!")
+            msg = _("🌟 Fantastic! You understood the story very well!")
         elif percentage >= 50:
-            msg = _("👍 Bra jobbat! Du förstod det mesta!")
+            msg = _("👍 Good job! You understood most of it!")
         else:
-            msg = _("💪 Bra försök! Läs berättelsen igen och försök sen!")
+            msg = _("💪 Nice try! Read the story again and then try!")
 
         msg_label = Gtk.Label(label=msg)
         msg_label.add_css_class("title-4")

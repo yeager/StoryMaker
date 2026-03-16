@@ -34,12 +34,12 @@ class SettingsView(Gtk.Box):
 
         # AI Provider settings
         ai_group = Adw.PreferencesGroup(
-            title=_("AI-inställningar"),
-            description=_("Select AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."),
+            title=_("AI settings"),
+            description=_("Select AI service and enter API key. Without a key, demo mode is used."),
         )
 
         # Provider selection
-        self.provider_row = Adw.ComboRow(title=_("AI-tjänst"))
+        self.provider_row = Adw.ComboRow(title=_("AI service"))
         provider_model = Gtk.StringList.new(["Demo (ingen nyckel)", "OpenAI", "Anthropic"])
         self.provider_row.set_model(provider_model)
         provider_idx = {"demo": 0, "openai": 1, "anthropic": 2}
@@ -54,9 +54,9 @@ class SettingsView(Gtk.Box):
         content.append(ai_group)
 
         # TTS settings
-        tts_group = Adw.PreferencesGroup(title=_("Uppläsning (TTS)"))
+        tts_group = Adw.PreferencesGroup(title=_("Reading out (TTS)"))
 
-        tts_status = _("Tillgänglig") if self.window.tts.is_available else _("Ej tillgänglig")
+        tts_status = _("Available") if self.window.tts.is_available else _("Not available")
         tts_row = Adw.ActionRow(
             title=_("Text-till-tal"),
             subtitle=f"{tts_status} ({self.window.tts.backend_name})",
@@ -65,7 +65,7 @@ class SettingsView(Gtk.Box):
 
         if not self.window.tts.is_available:
             hint_row = Adw.ActionRow(
-                title=_("Install espeak-ng för uppläsning"),
+                title=_("Install espeak-ng for reading aloud"),
                 subtitle="sudo apt install espeak-ng",
             )
             tts_group.add(hint_row)
@@ -76,13 +76,13 @@ class SettingsView(Gtk.Box):
         about_group = Adw.PreferencesGroup(title=_("About StoryMaker"))
         about_row = Adw.ActionRow(
             title="StoryMaker 1.0.0",
-            subtitle=_("Interaktiva berättelser med AI och piktogram"),
+            subtitle=_("Interactive stories with AI and pictograms"),
         )
         about_group.add(about_row)
         content.append(about_group)
 
         # Save button
-        save_btn = Gtk.Button(label=_("Save inställningar"))
+        save_btn = Gtk.Button(label=_("Save settings"))
         save_btn.add_css_class("suggested-action")
         save_btn.add_css_class("pill")
         save_btn.set_halign(Gtk.Align.CENTER)

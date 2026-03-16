@@ -56,7 +56,7 @@ class StoryMakerWindow(Adw.ApplicationWindow):
         """Show story theme selector for a profile."""
         self.current_profile = profile
         view = StoryThemeSelector(self)
-        page = Adw.NavigationPage(title=_("Select äventyr"), child=view)
+        page = Adw.NavigationPage(title=_("Select adventure"), child=view)
         self.nav_view.push(page)
 
     def show_story(self, profile, theme):
@@ -69,7 +69,7 @@ class StoryMakerWindow(Adw.ApplicationWindow):
     def show_quiz(self, story):
         """Show quiz for a story."""
         view = QuizView(self, story)
-        page = Adw.NavigationPage(title=_("Läsförståelse"), child=view)
+        page = Adw.NavigationPage(title=_("Reading comprehension"), child=view)
         self.nav_view.push(page)
 
     def show_progress(self, profile):
@@ -115,7 +115,7 @@ class StoryThemeSelector(Gtk.Box):
         self.set_margin_start(24)
         self.set_margin_end(24)
 
-        title = Gtk.Label(label=_("Select ett tema för din berättelse!"))
+        title = Gtk.Label(label=_("Select a theme for your story!"))
         title.add_css_class("title-2")
         self.append(title)
 

@@ -1,14 +1,146 @@
-# Swedish translation
-# Copyright (C) 2024
-# This file is distributed under the same license as the package.
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: storymaker 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-03-16 12:00+0100\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Interactive stories with AI and pictograms for reading comprehension training"
+msgstr "Interaktiva berättelser med AI och piktogram för läsförståelseträning"
+
+msgid "Create magical stories with AI!"
+msgstr "Skapa magiska berättelser med AI!"
+
+msgid "Who is reading today?"
+msgstr "Vem läser idag?"
+
+msgid "➕ New reader"
+msgstr "➕ Ny läsare"
+
+msgid "year"
+msgstr "år"
+
+msgid "📝 Reading comprehension"
+msgstr "📝 Läsförståelse"
+
+msgid "Could not create quiz. Please try again!"
+msgstr "Kunde inte skapa quiz. Försök igen!"
+
+msgid "Question"
+msgstr "Fråga"
+
+msgid "🌟 Fantastic! You understood the story very well!"
+msgstr "🌟 Fantastiskt! Du förstod berättelsen jättebra!"
+
+msgid "👍 Good job! You understood most of it!"
+msgstr "👍 Bra jobbat! Du förstod det mesta!"
+
+msgid "💪 Nice try! Read the story again and then try!"
+msgstr "💪 Bra försök! Läs berättelsen igen och försök sen!"
+
+msgid "Select adventure"
+msgstr "Select äventyr"
+
+msgid "Reading comprehension"
+msgstr "Läsförståelse"
+
+msgid "Select a theme for your story!"
+msgstr "Select ett tema för din berättelse!"
+
+msgid "AI settings"
+msgstr "AI-inställningar"
+
+msgid "Select AI service and enter API key. Without a key, demo mode is used."
+msgstr "Select AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."
+
+msgid "AI service"
+msgstr "AI-tjänst"
+
+msgid "Reading out (TTS)"
+msgstr "Uppläsning (TTS)"
+
+msgid "Available"
+msgstr "Tillgänglig"
+
+msgid "Not available"
+msgstr "Ej tillgänglig"
+
+msgid "Install espeak-ng for reading aloud"
+msgstr "Install espeak-ng för uppläsning"
+
+msgid "Interactive stories with AI and pictograms"
+msgstr "Interaktiva berättelser med AI och piktogram"
+
+msgid "Save settings"
+msgstr "Save inställningar"
+
+msgid "Age"
+msgstr "Ålder"
+
+msgid "All stories and progress for {name} will be deleted."
+msgstr "Alla berättelser och framsteg för {name} kommer att raderas."
+
+msgid "Read up"
+msgstr "Läs upp"
+
+msgid "Could not create the story. Try again!"
+msgstr "Kunde inte skapa berättelsen. Försök igen!"
+
+msgid "What will happen next?"
+msgstr "Vad ska hända nu?"
+
+msgid "Something went wrong. Try again!"
+msgstr "Något gick fel. Försök igen!"
+
+msgid "🎉 Congratulations! You have finished the story!"
+msgstr "🎉 Grattis! Du har avslutat berättelsen!"
+
+msgid "📝 Take the quiz!"
+msgstr "📝 Gör quiz!"
+
+msgid "Try again"
+msgstr "Försök igen"
+
+msgid "Level"
+msgstr "Nivå"
+
+msgid "Narratives"
+msgstr "Berättelser"
+
+msgid "Words read"
+msgstr "Ord lästa"
+
+msgid "Chapters read"
+msgstr "Kapitel lästa"
+
+msgid "Quizzes completed"
+msgstr "Quiz genomförda"
+
+msgid "Average score"
+msgstr "Genomsnittlig poäng"
+
+msgid "Reading progress"
+msgstr "Läsframsteg"
+
+msgid "Goal: Read 5000 words!"
+msgstr "Mål: Läs 5000 ord!"
+
+msgid "Latest stories"
+msgstr "Senaste berättelser"
+
+msgid "Beginners"
+msgstr "Nybörjare"
+
+msgid "Readers"
+msgstr "Läsare"
+
+msgid "Master"
+msgstr "Mästare"
 
 msgid "AI-inställningar"
 msgstr "AI-inställningar"

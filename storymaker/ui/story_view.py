@@ -34,7 +34,7 @@ class StoryView(Gtk.Box):
         # TTS button
         if self.tts.is_available:
             tts_btn = Gtk.Button(icon_name="audio-speakers-symbolic")
-            tts_btn.set_tooltip_text(_("Läs upp"))
+            tts_btn.set_tooltip_text(_("Read up"))
             tts_btn.connect("clicked", self._on_tts_clicked)
             header.pack_end(tts_btn)
 
@@ -108,7 +108,7 @@ class StoryView(Gtk.Box):
                 # Save to database
                 self.window.db.save_story(story)
             else:
-                self._show_error(_("Kunde inte skapa berättelsen. Försök igen!"))
+                self._show_error(_("Could not create the story. Try again!"))
 
         def on_error(e):
             self._show_loading(False)
@@ -186,7 +186,7 @@ class StoryView(Gtk.Box):
 
     def _display_choices(self, choices):
         """Display choice buttons."""
-        choices_label = Gtk.Label(label=_("Vad ska hända nu?"))
+        choices_label = Gtk.Label(label=_("What will happen next?"))
         choices_label.add_css_class("title-4")
         self.choices_box.append(choices_label)
 
@@ -218,7 +218,7 @@ class StoryView(Gtk.Box):
                 progress.words_read += len(node.text.split())
                 self.window.db.update_progress(progress)
             else:
-                self._show_error(_("Något gick fel. Försök igen!"))
+                self._show_error(_("Something went wrong. Try again!"))
 
         def on_error(e):
             self._show_loading(False)
@@ -232,14 +232,14 @@ class StoryView(Gtk.Box):
         box.set_halign(Gtk.Align.CENTER)
         box.set_margin_top(16)
 
-        congrats = Gtk.Label(label=_("🎉 Grattis! Du har avslutat berättelsen!"))
+        congrats = Gtk.Label(label=_("🎉 Congratulations! You have finished the story!"))
         congrats.add_css_class("title-3")
         box.append(congrats)
 
         btn_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
         btn_box.set_halign(Gtk.Align.CENTER)
 
-        quiz_btn = Gtk.Button(label=_("📝 Gör quiz!"))
+        quiz_btn = Gtk.Button(label=_("📝 Take the quiz!"))
         quiz_btn.add_css_class("suggested-action")
         quiz_btn.add_css_class("pill")
         quiz_btn.connect("clicked", self._on_quiz_clicked)
@@ -287,7 +287,7 @@ class StoryView(Gtk.Box):
         label.add_css_class("error")
         self.choices_box.append(label)
 
-        retry_btn = Gtk.Button(label=_("Försök igen"))
+        retry_btn = Gtk.Button(label=_("Try again"))
         retry_btn.add_css_class("suggested-action")
         retry_btn.connect("clicked", lambda _: self._start_story())
         self.choices_box.append(retry_btn)

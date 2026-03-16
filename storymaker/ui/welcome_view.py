@@ -35,12 +35,12 @@ class WelcomeView(Gtk.Box):
         title.add_css_class("welcome-title")
         content.append(title)
 
-        subtitle = Gtk.Label(label=_("Skapa magiska berättelser med AI!"))
+        subtitle = Gtk.Label(label=_("Create magical stories with AI!"))
         subtitle.add_css_class("welcome-subtitle")
         content.append(subtitle)
 
         # Profile list
-        profiles_label = Gtk.Label(label=_("Vem läser idag?"))
+        profiles_label = Gtk.Label(label=_("Who is reading today?"))
         profiles_label.add_css_class("title-3")
         profiles_label.set_margin_top(24)
         content.append(profiles_label)
@@ -60,7 +60,7 @@ class WelcomeView(Gtk.Box):
         content.append(scrolled)
 
         # Add new profile button
-        add_btn = Gtk.Button(label=_("➕ Ny läsare"))
+        add_btn = Gtk.Button(label=_("➕ New reader"))
         add_btn.add_css_class("suggested-action")
         add_btn.add_css_class("pill")
         add_btn.set_halign(Gtk.Align.CENTER)
@@ -97,7 +97,7 @@ class WelcomeView(Gtk.Box):
         box.append(name)
 
         # Age
-        age = Gtk.Label(label=f"{profile.age} {_('år')}")
+        age = Gtk.Label(label=f"{profile.age} {_("year")}")
         age.add_css_class("dim-label")
         box.append(age)
 

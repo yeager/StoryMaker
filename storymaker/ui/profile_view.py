@@ -97,7 +97,7 @@ class ProfileView(Gtk.Box):
 
         # Age spinner
         self.age_row = Adw.SpinRow.new_with_range(6, 12, 1)
-        self.age_row.set_title(_("Ålder"))
+        self.age_row.set_title(_("Age"))
         self.age_row.set_value(self.profile.age)
         name_group.add(self.age_row)
 
@@ -180,7 +180,7 @@ class ProfileView(Gtk.Box):
         """Delete the profile after confirmation."""
         dialog = Adw.AlertDialog(
             heading=_("Delete profil?"),
-            body=_("Alla berättelser och framsteg för {name} kommer att raderas.").format(
+            body=_("All stories and progress for {name} will be deleted.").format(
                 name=self.profile.name
             ),
         )

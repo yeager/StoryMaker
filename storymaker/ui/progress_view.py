@@ -45,7 +45,7 @@ class ProgressView(Gtk.Box):
         name_label.set_xalign(0)
         name_box.append(name_label)
 
-        level_label = Gtk.Label(label=f"{_('Nivå')}: {progress.reading_level}")
+        level_label = Gtk.Label(label=f"{_("Level")}: {progress.reading_level}")
         level_label.set_xalign(0)
         level_label.add_css_class("dim-label")
         name_box.append(level_label)
@@ -58,7 +58,7 @@ class ProgressView(Gtk.Box):
 
         # Stories
         stories_row = Adw.ActionRow(
-            title=_("Berättelser"),
+            title=_("Narratives"),
             subtitle=f"{progress.completed_stories} {_('avslutade')} / {progress.total_stories} {_('totalt')}",
         )
         stories_row.add_prefix(Gtk.Label(label="📚"))
@@ -66,7 +66,7 @@ class ProgressView(Gtk.Box):
 
         # Words read
         words_row = Adw.ActionRow(
-            title=_("Ord lästa"),
+            title=_("Words read"),
             subtitle=str(progress.words_read),
         )
         words_row.add_prefix(Gtk.Label(label="📖"))
@@ -74,7 +74,7 @@ class ProgressView(Gtk.Box):
 
         # Chapters
         chapters_row = Adw.ActionRow(
-            title=_("Kapitel lästa"),
+            title=_("Chapters read"),
             subtitle=str(progress.chapters_read),
         )
         chapters_row.add_prefix(Gtk.Label(label="📄"))
@@ -82,7 +82,7 @@ class ProgressView(Gtk.Box):
 
         # Quizzes
         quiz_row = Adw.ActionRow(
-            title=_("Quiz genomförda"),
+            title=_("Quizzes completed"),
             subtitle=str(progress.total_quizzes),
         )
         quiz_row.add_prefix(Gtk.Label(label="📝"))
@@ -90,7 +90,7 @@ class ProgressView(Gtk.Box):
 
         # Average score
         score_row = Adw.ActionRow(
-            title=_("Genomsnittlig poäng"),
+            title=_("Average score"),
             subtitle=f"{progress.avg_score:.0f}%",
         )
         score_row.add_prefix(Gtk.Label(label="⭐"))
@@ -99,7 +99,7 @@ class ProgressView(Gtk.Box):
         content.append(stats_group)
 
         # Reading progress bar
-        progress_group = Adw.PreferencesGroup(title=_("Läsframsteg"))
+        progress_group = Adw.PreferencesGroup(title=_("Reading progress"))
 
         progress_bar = Gtk.ProgressBar()
         progress_bar.add_css_class("progress-bar")
@@ -112,7 +112,7 @@ class ProgressView(Gtk.Box):
         progress_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
         progress_box.set_margin_top(8)
         progress_box.set_margin_bottom(8)
-        goal_label = Gtk.Label(label=_("Mål: Läs 5000 ord!"))
+        goal_label = Gtk.Label(label=_("Goal: Read 5000 words!"))
         goal_label.set_xalign(0)
         progress_box.append(goal_label)
         progress_box.append(progress_bar)
@@ -123,7 +123,7 @@ class ProgressView(Gtk.Box):
         # Recent stories
         stories = self.window.db.get_stories(self.profile.id)
         if stories:
-            stories_group = Adw.PreferencesGroup(title=_("Senaste berättelser"))
+            stories_group = Adw.PreferencesGroup(title=_("Latest stories"))
             for story in stories[:5]:
                 status = "✅" if story.is_complete else "📖"
                 row = Adw.ActionRow(
