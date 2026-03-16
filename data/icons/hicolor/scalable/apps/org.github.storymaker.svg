@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C5CE7"/>
+      <stop offset="100%" style="stop-color:#A29BFE"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
+  <!-- Book -->
+  <g transform="translate(20, 24)">
+    <path d="M10 10 L44 5 L44 70 L10 75 Z" fill="#FFF" opacity="0.9"/>
+    <path d="M78 10 L44 5 L44 70 L78 75 Z" fill="#FFF" opacity="0.8"/>
+    <line x1="44" y1="5" x2="44" y2="70" stroke="#6C5CE7" stroke-width="2"/>
+    <!-- Lines on pages -->
+    <line x1="18" y1="20" x2="38" y2="18" stroke="#A29BFE" stroke-width="2" opacity="0.5"/>
+    <line x1="18" y1="30" x2="38" y2="28" stroke="#A29BFE" stroke-width="2" opacity="0.5"/>
+    <line x1="18" y1="40" x2="38" y2="38" stroke="#A29BFE" stroke-width="2" opacity="0.5"/>
+    <line x1="50" y1="18" x2="70" y2="20" stroke="#A29BFE" stroke-width="2" opacity="0.5"/>
+    <line x1="50" y1="28" x2="70" y2="30" stroke="#A29BFE" stroke-width="2" opacity="0.5"/>
+  </g>
+  <!-- Stars -->
+  <circle cx="95" cy="25" r="4" fill="#FFEAA7"/>
+  <circle cx="105" cy="40" r="3" fill="#FFEAA7"/>
+  <circle cx="85" cy="15" r="2.5" fill="#FFEAA7"/>
+  <!-- Sparkle -->
+  <text x="90" y="105" font-size="24" text-anchor="middle">✨</text>
+</svg>

@@ -1,0 +1,323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR StoryMaker Team
+# This file is distributed under the same license as the StoryMaker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: StoryMaker 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 09:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: storymaker/application.py:142
+msgid "Interaktiva berättelser med AI och piktogram för läsförståelseträning"
+msgstr ""
+
+#: storymaker/ui/window.py:52
+msgid "Profil"
+msgstr ""
+
+#: storymaker/ui/window.py:59
+msgid "Välj äventyr"
+msgstr ""
+
+#: storymaker/ui/window.py:72
+msgid "Läsförståelse"
+msgstr ""
+
+#: storymaker/ui/window.py:78 storymaker/ui/welcome_view.py:114
+msgid "Framsteg"
+msgstr ""
+
+#: storymaker/ui/window.py:84 storymaker/ui/welcome_view.py:20
+msgid "Inställningar"
+msgstr ""
+
+#: storymaker/ui/window.py:118
+msgid "Välj ett tema för din berättelse!"
+msgstr ""
+
+#: storymaker/ui/window.py:149
+msgid "Eller skriv ditt eget tema..."
+msgstr ""
+
+#: storymaker/ui/window.py:153
+msgid "Starta!"
+msgstr ""
+
+#: storymaker/ui/welcome_view.py:38
+msgid "Skapa magiska berättelser med AI!"
+msgstr ""
+
+#: storymaker/ui/welcome_view.py:43
+msgid "Vem läser idag?"
+msgstr ""
+
+#: storymaker/ui/welcome_view.py:63
+msgid "➕ Ny läsare"
+msgstr ""
+
+#: storymaker/ui/welcome_view.py:100
+msgid "år"
+msgstr ""
+
+#: storymaker/ui/welcome_view.py:108
+msgid "Spela"
+msgstr ""
+
+#: storymaker/ui/welcome_view.py:119
+msgid "Redigera"
+msgstr ""
+
+#: storymaker/ui/story_view.py:37
+msgid "Läs upp"
+msgstr ""
+
+#: storymaker/ui/story_view.py:43
+msgid "Hem"
+msgstr ""
+
+#: storymaker/ui/story_view.py:111
+msgid "Kunde inte skapa berättelsen. Försök igen!"
+msgstr ""
+
+#: storymaker/ui/story_view.py:127
+msgid "Slutet"
+msgstr ""
+
+#: storymaker/ui/story_view.py:129
+msgid "Kapitel"
+msgstr ""
+
+#: storymaker/ui/story_view.py:189
+msgid "Vad ska hända nu?"
+msgstr ""
+
+#: storymaker/ui/story_view.py:221
+msgid "Något gick fel. Försök igen!"
+msgstr ""
+
+#: storymaker/ui/story_view.py:235
+msgid "🎉 Grattis! Du har avslutat berättelsen!"
+msgstr ""
+
+#: storymaker/ui/story_view.py:242
+msgid "📝 Gör quiz!"
+msgstr ""
+
+#: storymaker/ui/story_view.py:248
+msgid "🏠 Tillbaka hem"
+msgstr ""
+
+#: storymaker/ui/story_view.py:290
+msgid "Försök igen"
+msgstr ""
+
+#: storymaker/ui/quiz_view.py:42
+msgid "📝 Läsförståelse"
+msgstr ""
+
+#: storymaker/ui/quiz_view.py:82
+msgid "Kunde inte skapa quiz. Försök igen!"
+msgstr ""
+
+#: storymaker/ui/quiz_view.py:103
+msgid "Fråga"
+msgstr ""
+
+#: storymaker/ui/quiz_view.py:171
+msgid "Resultat"
+msgstr ""
+
+#: storymaker/ui/quiz_view.py:184
+msgid "🌟 Fantastiskt! Du förstod berättelsen jättebra!"
+msgstr ""
+
+#: storymaker/ui/quiz_view.py:186
+msgid "👍 Bra jobbat! Du förstod det mesta!"
+msgstr ""
+
+#: storymaker/ui/quiz_view.py:188
+msgid "💪 Bra försök! Läs berättelsen igen och försök sen!"
+msgstr ""
+
+#: storymaker/ui/quiz_view.py:203
+msgid "🏠 Hem"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:45
+msgid "Spara"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:68
+msgid "Välj din avatar"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:93
+msgid "Om dig"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:94
+msgid "Namn"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:100
+msgid "Ålder"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:105
+msgid "Språk"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:114
+msgid "Vad tycker du om?"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:182
+msgid "Ta bort profil?"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:183
+#, python-brace-format
+msgid "Alla berättelser och framsteg för {name} kommer att raderas."
+msgstr ""
+
+#: storymaker/ui/profile_view.py:187
+msgid "Avbryt"
+msgstr ""
+
+#: storymaker/ui/profile_view.py:188
+msgid "Ta bort"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:48
+msgid "Nivå"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:57
+msgid "Statistik"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:61
+msgid "Berättelser"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:62
+msgid "avslutade"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:62
+msgid "totalt"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:69
+msgid "Ord lästa"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:77
+msgid "Kapitel lästa"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:85
+msgid "Quiz genomförda"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:93
+msgid "Genomsnittlig poäng"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:102
+msgid "Läsframsteg"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:109
+msgid "ord"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:115
+msgid "Mål: Läs 5000 ord!"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:126
+msgid "Senaste berättelser"
+msgstr ""
+
+#: storymaker/ui/progress_view.py:131
+msgid "kapitel"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:37
+msgid "AI-inställningar"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:38
+msgid "Välj AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."
+msgstr ""
+
+#: storymaker/ui/settings_view.py:42
+msgid "AI-tjänst"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:50
+msgid "API-nyckel"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:57
+msgid "Uppläsning (TTS)"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:59
+msgid "Tillgänglig"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:59
+msgid "Ej tillgänglig"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:61
+msgid "Text-till-tal"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:68
+msgid "Installera espeak-ng för uppläsning"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:76
+msgid "Om StoryMaker"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:79
+msgid "Interaktiva berättelser med AI och piktogram"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:85
+msgid "Spara inställningar"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:110
+msgid "Inställningar sparade!"
+msgstr ""
+
+#: storymaker/models/progress.py:30
+msgid "Nybörjare"
+msgstr ""
+
+#: storymaker/models/progress.py:32
+msgid "Läsare"
+msgstr ""
+
+#: storymaker/models/progress.py:34
+msgid "Bokmal"
+msgstr ""
+
+#: storymaker/models/progress.py:35
+msgid "Mästare"
+msgstr ""

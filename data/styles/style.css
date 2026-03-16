@@ -1,0 +1,45 @@
+/* StoryMaker - Child-friendly GTK4 stylesheet */
+
+.story-text {
+    font-size: 20px;
+    font-family: "Comic Neue", "Comic Sans MS", sans-serif;
+    line-height: 1.8;
+    padding: 16px;
+}
+
+.story-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.choice-button {
+    font-size: 18px;
+    padding: 16px 24px;
+    margin: 8px;
+    border-radius: 16px;
+}
+
+.welcome-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.quiz-question {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.quiz-correct {
+    background: alpha(#4caf50, 0.3);
+}
+
+.quiz-incorrect {
+    background: alpha(#f44336, 0.3);
+}
+
+.profile-card {
+    padding: 16px;
+    border-radius: 16px;
+    margin: 8px;
+}

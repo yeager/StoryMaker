@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=StoryMaker
+Name[sv]=StoryMaker
+GenericName=Interactive Story Creator
+GenericName[sv]=Interaktiv berättelseskapare
+Comment=Create interactive stories with AI and pictograms for reading comprehension
+Comment[sv]=Skapa interaktiva berättelser med AI och piktogram för läsförståelseträning
+Exec=storymaker
+Icon=org.github.storymaker
+Terminal=false
+Type=Application
+Categories=Education;Kids;
+Keywords=story;reading;children;AI;pictogram;
+Keywords[sv]=berättelse;läsning;barn;AI;piktogram;
+StartupNotify=true
