@@ -5,6 +5,7 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Adw
+from storymaker.utils.i18n import _
 
 
 class WelcomeView(Gtk.Box):
@@ -14,12 +15,19 @@ class WelcomeView(Gtk.Box):
         super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=0)
         self.window = window
 
-        # Header bar with settings button
+        # Header bar with settings and library buttons
         header = Adw.HeaderBar()
+        
+        library_btn = Gtk.Button(icon_name="folder-symbolic")
+        library_btn.set_tooltip_text(_("Story Library"))
+        library_btn.connect("clicked", lambda _: self.window.show_library())
+        header.pack_end(library_btn)
+        
         settings_btn = Gtk.Button(icon_name="emblem-system-symbolic")
         settings_btn.set_tooltip_text(_("Settings"))
         settings_btn.connect("clicked", lambda _: self.window.show_settings())
         header.pack_end(settings_btn)
+        
         self.append(header)
 
         # Content area

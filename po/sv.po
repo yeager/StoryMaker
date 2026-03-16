@@ -280,3 +280,55 @@ msgstr "Ålder"
 msgid "➕ Ny läsare"
 msgstr "➕ Ny läsare"
 
+# Library functionality
+msgid "Story Library"
+msgstr "Berättelsebibliotek"
+
+msgid "Refresh catalog"
+msgstr "Uppdatera katalog"
+
+msgid "Loading catalog..."
+msgstr "Laddar katalog..."
+
+msgid "Online Catalog"
+msgstr "Online-katalog"
+
+msgid "Language:"
+msgstr "Språk:"
+
+msgid "All"
+msgstr "Alla"
+
+msgid "Downloaded Stories"
+msgstr "Nedladdade berättelser"
+
+msgid "Found {count} stories in catalog"
+msgstr "Hittade {count} berättelser i katalogen"
+
+msgid "Download"
+msgstr "Ladda ner"
+
+msgid "Downloaded"
+msgstr "Nedladdad"
+
+msgid "Downloading..."
+msgstr "Laddar ner..."
+
+msgid "Play"
+msgstr "Spela"
+
+msgid "Delete"
+msgstr "Radera"
+
+msgid "Delete story?"
+msgstr "Radera berättelse?"
+
+msgid "This will permanently delete '{title}' from your device."
+msgstr "Detta kommer att permanent radera '{title}' från din enhet."
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Failed to load catalog: {error}"
+msgstr "Kunde inte ladda katalog: {error}"
+

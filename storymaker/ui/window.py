@@ -12,8 +12,10 @@ from storymaker.ui.quiz_view import QuizView
 from storymaker.ui.profile_view import ProfileView
 from storymaker.ui.progress_view import ProgressView
 from storymaker.ui.settings_view import SettingsView
+from storymaker.ui.library_view import LibraryView
 from storymaker.engine.story_engine import StoryEngine
 from storymaker.services.tts_service import TTSService
+from storymaker.utils.i18n import _
 
 
 class StoryMakerWindow(Adw.ApplicationWindow):
@@ -82,6 +84,20 @@ class StoryMakerWindow(Adw.ApplicationWindow):
         """Show settings."""
         view = SettingsView(self)
         page = Adw.NavigationPage(title=_("Settings"), child=view)
+        self.nav_view.push(page)
+
+    def show_library(self, profile=None):
+        """Show story library."""
+        if profile:
+            self.current_profile = profile
+        view = LibraryView(self)
+        page = Adw.NavigationPage(title=_("Story Library"), child=view)
+        self.nav_view.push(page)
+
+    def show_story_from_library(self, story):
+        """Show a story from the library."""
+        view = StoryView(self, self.current_profile, story.theme, preloaded_story=story)
+        page = Adw.NavigationPage(title=story.title, child=view)
         self.nav_view.push(page)
 
     def go_back(self):

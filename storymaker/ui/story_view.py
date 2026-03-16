@@ -13,7 +13,7 @@ from storymaker.utils.async_helper import run_async
 class StoryView(Gtk.Box):
     """Main story reading interface with text, pictograms, and choices."""
 
-    def __init__(self, window, profile, theme):
+    def __init__(self, window, profile, theme, preloaded_story=None):
         super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=0)
         self.window = window
         self.profile = profile
@@ -22,6 +22,7 @@ class StoryView(Gtk.Box):
         self.tts = window.tts
         self.arasaac = ArasaacClient()
         self.chapter_number = 0
+        self.preloaded_story = preloaded_story
 
         self._build_ui()
         self._start_story()
@@ -94,27 +95,36 @@ class StoryView(Gtk.Box):
         self.append(self.scroll)
 
     def _start_story(self):
-        """Generate the first chapter."""
-        self._show_loading(True)
+        """Start the story (either generate new or load preloaded)."""
+        if self.preloaded_story:
+            # Use preloaded story from library
+            self.engine.story = self.preloaded_story
+            self.chapter_number = 1
+            self._display_current_node()
+            # Save to database
+            self.window.db.save_story(self.preloaded_story)
+        else:
+            # Generate new story
+            self._show_loading(True)
 
-        def generate():
-            return self.engine.start_story(self.profile, self.theme)
+            def generate():
+                return self.engine.start_story(self.profile, self.theme)
 
-        def on_result(story):
-            self._show_loading(False)
-            if story:
-                self.chapter_number = 1
-                self._display_current_node()
-                # Save to database
-                self.window.db.save_story(story)
-            else:
-                self._show_error(_("Could not create the story. Try again!"))
+            def on_result(story):
+                self._show_loading(False)
+                if story:
+                    self.chapter_number = 1
+                    self._display_current_node()
+                    # Save to database
+                    self.window.db.save_story(story)
+                else:
+                    self._show_error(_("Could not create the story. Try again!"))
 
-        def on_error(e):
-            self._show_loading(False)
-            self._show_error(str(e))
+            def on_error(e):
+                self._show_loading(False)
+                self._show_error(str(e))
 
-        run_async(generate, on_result, on_error)
+            run_async(generate, on_result, on_error)
 
     def _display_current_node(self):
         """Display the current story node."""
