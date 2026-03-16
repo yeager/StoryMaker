@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=StoryMaker
+Name[sv]=Berättelseskapare
+Comment=Interactive stories for children
+Comment[sv]=Interaktiva berättelser för barn
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m storymaker
+Icon=storymaker
+Terminal=false
+Type=Application
+Categories=Education;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
