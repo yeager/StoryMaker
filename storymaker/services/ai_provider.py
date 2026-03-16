@@ -7,6 +7,7 @@ from typing import Optional
 from storymaker.models.child_profile import ChildProfile
 from storymaker.models.story import StoryNode, StoryChoice
 from storymaker.models.quiz import QuizQuestion
+from storymaker.utils.i18n import _
 
 
 class AIProvider(ABC):

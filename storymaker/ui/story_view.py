@@ -8,6 +8,7 @@ from gi.repository import Gtk, Adw, GLib, Gdk, GdkPixbuf
 
 from storymaker.services.arasaac_client import ArasaacClient
 from storymaker.utils.async_helper import run_async
+from storymaker.utils.i18n import _
 
 
 class StoryView(Gtk.Box):

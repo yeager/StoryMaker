@@ -8,6 +8,7 @@ from gi.repository import Gtk, Adw, GLib
 
 from storymaker.models.quiz import QuizResult
 from storymaker.utils.async_helper import run_async
+from storymaker.utils.i18n import _
 
 
 class QuizView(Gtk.Box):

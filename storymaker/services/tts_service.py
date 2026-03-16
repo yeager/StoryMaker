@@ -12,14 +12,14 @@ class TTSService:
     """Text-to-Speech service for reading stories aloud.
     
     Uses Piper TTS with:
-    - Swedish: Alma voice (sv_SE-nst-medium)
+    - Swedish: Alma voice (sv_SE-alma-medium)
     - English female: en_US-lessac-medium
     - English male: en_US-ryan-medium
     """
 
     # Voice models
     VOICES = {
-        "sv_female": "sv_SE-nst-medium",      # Alma
+        "sv_female": "sv_SE-alma-medium",      # Alma
         "en_female": "en_US-lessac-medium",
         "en_male": "en_US-ryan-medium",
     }

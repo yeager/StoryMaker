@@ -7,6 +7,7 @@ gi.require_version('Adw', '1')
 from gi.repository import Gtk, Adw
 
 from storymaker.models.child_profile import ChildProfile
+from storymaker.utils.i18n import _
 
 
 AVATAR_EMOJIS = ["🧒", "👦", "👧", "🧒🏻", "👦🏽", "👧🏿", "🦸", "🧙", "🧚", "🐱", "🐶", "🦊"]

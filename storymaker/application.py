@@ -8,6 +8,7 @@ from gi.repository import Gtk, Adw, Gio, GLib
 
 from storymaker.config import APP_ID, APP_NAME, APP_VERSION
 from storymaker.storage.database import Database
+from storymaker.utils.i18n import _
 
 
 class StoryMakerApp(Adw.Application):
