@@ -262,7 +262,7 @@ class StoryView(Gtk.Box):
         quiz_btn.connect("clicked", self._on_quiz_clicked)
         btn_box.append(quiz_btn)
 
-        home_btn = Gtk.Button(label=_("🏠 Tillbaka hem"))
+        home_btn = Gtk.Button(label=_("🏠 Back home"))
         home_btn.add_css_class("pill")
         home_btn.connect("clicked", lambda _: self.window.go_home())
         btn_box.append(home_btn)

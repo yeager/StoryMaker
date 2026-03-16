@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: storymaker\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 19:26+0100\n"
+"POT-Creation-Date: 2026-03-16 20:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "Spela"
 msgstr ""
 
 #: storymaker/ui/welcome_view.py:122 storymaker/ui/window.py:80
-msgid "Framsteg"
+msgid "Progress"
 msgstr ""
 
 #: storymaker/ui/welcome_view.py:127
@@ -89,11 +89,11 @@ msgid "💪 Nice try! Read the story again and then try!"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:203
-msgid "🏠 Hem"
+msgid "🏠 Home"
 msgstr ""
 
 #: storymaker/ui/window.py:54
-msgid "Profile"
+msgid "Profiles"
 msgstr ""
 
 #: storymaker/ui/window.py:61
@@ -301,7 +301,7 @@ msgid "Settings saved"
 msgstr ""
 
 #: storymaker/ui/profile_view.py:68
-msgid "Select din avatar"
+msgid "Select your avatar"
 msgstr ""
 
 #: storymaker/ui/profile_view.py:93
@@ -321,11 +321,11 @@ msgid "Language"
 msgstr ""
 
 #: storymaker/ui/profile_view.py:114
-msgid "Vad tycker du om?"
+msgid "What do you think?"
 msgstr ""
 
 #: storymaker/ui/profile_view.py:182
-msgid "Delete profil?"
+msgid "Delete profile?"
 msgstr ""
 
 #: storymaker/ui/profile_view.py:183
@@ -374,7 +374,7 @@ msgid "📝 Take the quiz!"
 msgstr ""
 
 #: storymaker/ui/story_view.py:265
-msgid "🏠 Tillbaka hem"
+msgid "🏠 Back home"
 msgstr ""
 
 #: storymaker/ui/story_view.py:307

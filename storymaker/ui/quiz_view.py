@@ -200,7 +200,7 @@ class QuizView(Gtk.Box):
         btn_box.set_halign(Gtk.Align.CENTER)
         btn_box.set_margin_top(16)
 
-        home_btn = Gtk.Button(label=_("🏠 Hem"))
+        home_btn = Gtk.Button(label=_("🏠 Home"))
         home_btn.add_css_class("pill")
         home_btn.connect("clicked", lambda _: self.window.go_home())
         btn_box.append(home_btn)

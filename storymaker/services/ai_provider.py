@@ -242,7 +242,7 @@ class DemoProvider(AIProvider):
         name = profile.name or "Äventyraren"
         stories = {
             1: {
-                "text": f_("{name} stood at the edge of the Enchanted Forest. The trees were so tall that they almost reached the clouds, and between the branches small lights sparkled like stars.\n\n")Välkommen, {name}!\" ropade en liten uggla som satt på en gren. \"Jag heter Uffe och jag behöver din hjälp. Den magiska boken har försvunnit och utan den kan skogens djur inte prata längre!\"\n\n{name} kände sig modig. Det här var början på ett stort äventyr!",
+                "text": f_("{name} stood at the edge of the Enchanted Forest. The trees were so tall that they almost reached the clouds, and between the branches small lights sparkled like stars.\n")Välkommen, {name}!\" ropade en liten uggla som satt på en gren. \"Jag heter Uffe och jag behöver din hjälp. Den magiska boken har försvunnit och utan den kan skogens djur inte prata längre!\"\n\n{name} kände sig modig. Det här var början på ett stort äventyr!",
                 "choices": [
                     {"text": "Följ Uffe djupare in i skogen", "emoji": "🌲"},
                     {"text": "Fråga skogens älvor om hjälp", "emoji": "🧚"},

@@ -119,7 +119,7 @@ class WelcomeView(Gtk.Box):
         btn_box.append(play_btn)
 
         progress_btn = Gtk.Button(icon_name="view-list-symbolic")
-        progress_btn.set_tooltip_text(_("Framsteg"))
+        progress_btn.set_tooltip_text(_("Progress"))
         progress_btn.connect("clicked", lambda _, p=profile: self.window.show_progress(p))
         btn_box.append(progress_btn)
 

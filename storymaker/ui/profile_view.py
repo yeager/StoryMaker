@@ -65,7 +65,7 @@ class ProfileView(Gtk.Box):
         content.set_margin_end(32)
 
         # Avatar selection
-        avatar_label = Gtk.Label(label=_("Select din avatar"))
+        avatar_label = Gtk.Label(label=_("Select your avatar"))
         avatar_label.add_css_class("title-4")
         avatar_label.set_xalign(0)
         content.append(avatar_label)
@@ -111,7 +111,7 @@ class ProfileView(Gtk.Box):
         content.append(name_group)
 
         # Interests
-        interests_label = Gtk.Label(label=_("Vad tycker du om?"))
+        interests_label = Gtk.Label(label=_("What do you think?"))
         interests_label.add_css_class("title-4")
         interests_label.set_xalign(0)
         interests_label.set_margin_top(8)
@@ -179,7 +179,7 @@ class ProfileView(Gtk.Box):
     def _on_delete(self, button):
         """Delete the profile after confirmation."""
         dialog = Adw.AlertDialog(
-            heading=_("Delete profil?"),
+            heading=_("Delete profile?"),
             body=_("All stories and progress for {name} will be deleted.").format(
                 name=self.profile.name
             ),

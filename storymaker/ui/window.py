@@ -51,7 +51,7 @@ class StoryMakerWindow(Adw.ApplicationWindow):
     def show_profile_editor(self, profile=None):
         """Navigate to profile editor."""
         view = ProfileView(self, profile)
-        page = Adw.NavigationPage(title=_("Profile"), child=view)
+        page = Adw.NavigationPage(title=_("Profiles"), child=view)
         self.nav_view.push(page)
 
     def show_story_selector(self, profile):
@@ -77,7 +77,7 @@ class StoryMakerWindow(Adw.ApplicationWindow):
     def show_progress(self, profile):
         """Show progress dashboard."""
         view = ProgressView(self, profile)
-        page = Adw.NavigationPage(title=_("Framsteg"), child=view)
+        page = Adw.NavigationPage(title=_("Progress"), child=view)
         self.nav_view.push(page)
 
     def show_settings(self):
