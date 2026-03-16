@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: storymaker 0.1.0\n"
+"Project-Id-Version: storymaker\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:47+0100\n"
+"POT-Creation-Date: 2026-03-16 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,35 +22,41 @@ msgid ""
 "Interactive stories with AI and pictograms for reading comprehension training"
 msgstr ""
 
-#: storymaker/ui/welcome_view.py:20 storymaker/ui/window.py:84
+#: storymaker/ui/welcome_view.py:22 storymaker/ui/window.py:94
+#: storymaker/ui/library_view.py:35
+msgid "Story Library"
+msgstr ""
+
+#: storymaker/ui/welcome_view.py:27 storymaker/ui/window.py:86
+#: storymaker/ui/settings_view.py:24
 msgid "Settings"
 msgstr ""
 
-#: storymaker/ui/welcome_view.py:38
+#: storymaker/ui/welcome_view.py:46
 msgid "Create magical stories with AI!"
 msgstr ""
 
-#: storymaker/ui/welcome_view.py:43
+#: storymaker/ui/welcome_view.py:51
 msgid "Who is reading today?"
 msgstr ""
 
-#: storymaker/ui/welcome_view.py:63
+#: storymaker/ui/welcome_view.py:71
 msgid "➕ New reader"
 msgstr ""
 
-#: storymaker/ui/welcome_view.py:100
+#: storymaker/ui/welcome_view.py:108
 msgid "year"
 msgstr ""
 
-#: storymaker/ui/welcome_view.py:108
+#: storymaker/ui/welcome_view.py:116
 msgid "Spela"
 msgstr ""
 
-#: storymaker/ui/welcome_view.py:114 storymaker/ui/window.py:78
+#: storymaker/ui/welcome_view.py:122 storymaker/ui/window.py:80
 msgid "Framsteg"
 msgstr ""
 
-#: storymaker/ui/welcome_view.py:119
+#: storymaker/ui/welcome_view.py:127
 msgid "Edit"
 msgstr ""
 
@@ -86,84 +92,212 @@ msgstr ""
 msgid "🏠 Hem"
 msgstr ""
 
-#: storymaker/ui/window.py:52
+#: storymaker/ui/window.py:54
 msgid "Profil"
 msgstr ""
 
-#: storymaker/ui/window.py:59
+#: storymaker/ui/window.py:61
 msgid "Select adventure"
 msgstr ""
 
-#: storymaker/ui/window.py:72
+#: storymaker/ui/window.py:74
 msgid "Reading comprehension"
 msgstr ""
 
-#: storymaker/ui/window.py:118
+#: storymaker/ui/window.py:134
 msgid "Select a theme for your story!"
 msgstr ""
 
-#: storymaker/ui/window.py:149
+#: storymaker/ui/window.py:165
 msgid "Eller skriv ditt eget tema..."
 msgstr ""
 
-#: storymaker/ui/window.py:153
+#: storymaker/ui/window.py:169
 msgid "Starta!"
 msgstr ""
 
-#: storymaker/ui/settings_view.py:37
-msgid "AI settings"
+#: storymaker/ui/library_view.py:38
+msgid "Refresh catalog"
 msgstr ""
 
-#: storymaker/ui/settings_view.py:38
-msgid "Select AI service and enter API key. Without a key, demo mode is used."
+#: storymaker/ui/library_view.py:45 storymaker/ui/library_view.py:125
+msgid "Loading catalog..."
+msgstr ""
+
+#: storymaker/ui/library_view.py:60
+msgid "Online Catalog"
+msgstr ""
+
+#: storymaker/ui/library_view.py:71
+msgid "Language:"
+msgstr ""
+
+#: storymaker/ui/library_view.py:76
+msgid "All"
+msgstr ""
+
+#: storymaker/ui/library_view.py:104
+msgid "Downloaded Stories"
+msgstr ""
+
+#: storymaker/ui/library_view.py:155
+#, python-brace-format
+msgid "Found {count} stories in catalog"
+msgstr ""
+
+#: storymaker/ui/library_view.py:216 storymaker/ui/library_view.py:324
+msgid "Downloaded"
+msgstr ""
+
+#: storymaker/ui/library_view.py:220 storymaker/ui/library_view.py:332
+msgid "Download"
+msgstr ""
+
+#: storymaker/ui/library_view.py:284
+msgid "Play"
+msgstr ""
+
+#: storymaker/ui/library_view.py:290 storymaker/ui/library_view.py:363
+#: storymaker/ui/profile_view.py:188
+msgid "Delete"
+msgstr ""
+
+#: storymaker/ui/library_view.py:311
+msgid "Downloading..."
+msgstr ""
+
+#: storymaker/ui/library_view.py:357
+msgid "Delete story?"
+msgstr ""
+
+#: storymaker/ui/library_view.py:358
+#, python-brace-format
+msgid "This will permanently delete '{title}' from your device."
+msgstr ""
+
+#: storymaker/ui/library_view.py:362 storymaker/ui/profile_view.py:187
+msgid "Cancel"
+msgstr ""
+
+#: storymaker/ui/library_view.py:376
+#, python-brace-format
+msgid "Failed to load catalog: {error}"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:41
+msgid "Voice and Reading"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:42
+msgid "Settings for text-to-speech reading"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:46
+msgid "Story language"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:47
+msgid "Swedish"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:47
+msgid "English"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:53
+msgid "English voice"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:54
+msgid "Female (Lessac)"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:54
+msgid "Male (Ryan)"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:60
+msgid "Piper TTS available"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:60
+msgid "Piper TTS not found"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:63
+msgid "TTS Engine"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:70
+msgid "Read aloud automatically"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:71
+msgid "Read each chapter aloud when it appears"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:80
+msgid "AI Story Generation"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:81
+msgid "Without API key, pre-made stories and demo mode are used."
+msgstr ""
+
+#: storymaker/ui/settings_view.py:84
 msgid "AI service"
 msgstr ""
 
-#: storymaker/ui/settings_view.py:50
-msgid "API-nyckel"
-msgstr ""
-
-#: storymaker/ui/settings_view.py:57
-msgid "Reading out (TTS)"
-msgstr ""
-
-#: storymaker/ui/settings_view.py:59
-msgid "Available"
-msgstr ""
-
-#: storymaker/ui/settings_view.py:59
-msgid "Not available"
-msgstr ""
-
-#: storymaker/ui/settings_view.py:61
-msgid "Text-till-tal"
-msgstr ""
-
-#: storymaker/ui/settings_view.py:68
-msgid "Install espeak-ng for reading aloud"
-msgstr ""
-
-#: storymaker/ui/settings_view.py:76
-msgid "About StoryMaker"
-msgstr ""
-
-#: storymaker/ui/settings_view.py:79
-msgid "Interactive stories with AI and pictograms"
-msgstr ""
-
 #: storymaker/ui/settings_view.py:85
-msgid "Save settings"
+msgid "Demo (no key needed)"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:91
+msgid "API key"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:99
+msgid "Display"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:102
+msgid "Text size"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:103
+msgid "Normal"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:103
+msgid "Large"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:103
+msgid "Extra large"
 msgstr ""
 
 #: storymaker/ui/settings_view.py:110
-msgid "Settings sparade!"
+msgid "Show pictograms"
 msgstr ""
 
-#: storymaker/ui/profile_view.py:45
+#: storymaker/ui/settings_view.py:111
+msgid "Display ARASAAC pictograms alongside story text"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:119
+msgid "About"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:122
+msgid "Interactive stories for children with AI and Piper TTS"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:128 storymaker/ui/profile_view.py:45
 msgid "Save"
+msgstr ""
+
+#: storymaker/ui/settings_view.py:156
+msgid "Settings saved"
 msgstr ""
 
 #: storymaker/ui/profile_view.py:68
@@ -199,55 +333,51 @@ msgstr ""
 msgid "All stories and progress for {name} will be deleted."
 msgstr ""
 
-#: storymaker/ui/profile_view.py:187
-msgid "Cancel"
-msgstr ""
-
-#: storymaker/ui/profile_view.py:188
-msgid "Delete"
-msgstr ""
-
-#: storymaker/ui/story_view.py:37
+#: storymaker/ui/story_view.py:38
 msgid "Read up"
 msgstr ""
 
-#: storymaker/ui/story_view.py:43
+#: storymaker/ui/story_view.py:41
+msgid "Stop"
+msgstr ""
+
+#: storymaker/ui/story_view.py:48
 msgid "Hem"
 msgstr ""
 
-#: storymaker/ui/story_view.py:111
+#: storymaker/ui/story_view.py:128
 msgid "Could not create the story. Try again!"
 msgstr ""
 
-#: storymaker/ui/story_view.py:127
+#: storymaker/ui/story_view.py:144
 msgid "Slutet"
 msgstr ""
 
-#: storymaker/ui/story_view.py:129
+#: storymaker/ui/story_view.py:146
 msgid "Kapitel"
 msgstr ""
 
-#: storymaker/ui/story_view.py:189
+#: storymaker/ui/story_view.py:206
 msgid "What will happen next?"
 msgstr ""
 
-#: storymaker/ui/story_view.py:221
+#: storymaker/ui/story_view.py:238
 msgid "Something went wrong. Try again!"
 msgstr ""
 
-#: storymaker/ui/story_view.py:235
+#: storymaker/ui/story_view.py:252
 msgid "🎉 Congratulations! You have finished the story!"
 msgstr ""
 
-#: storymaker/ui/story_view.py:242
+#: storymaker/ui/story_view.py:259
 msgid "📝 Take the quiz!"
 msgstr ""
 
-#: storymaker/ui/story_view.py:248
+#: storymaker/ui/story_view.py:265
 msgid "🏠 Tillbaka hem"
 msgstr ""
 
-#: storymaker/ui/story_view.py:290
+#: storymaker/ui/story_view.py:307
 msgid "Try again"
 msgstr ""
 
