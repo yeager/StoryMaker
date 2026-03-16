@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: storymaker\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 19:02+0100\n"
+"POT-Creation-Date: 2026-03-16 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "Question"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:171
-msgid "Resultat"
+msgid "Results"
 msgstr ""
 
 #: storymaker/ui/quiz_view.py:184
@@ -93,7 +93,7 @@ msgid "🏠 Hem"
 msgstr ""
 
 #: storymaker/ui/window.py:54
-msgid "Profil"
+msgid "Profile"
 msgstr ""
 
 #: storymaker/ui/window.py:61
@@ -109,7 +109,7 @@ msgid "Select a theme for your story!"
 msgstr ""
 
 #: storymaker/ui/window.py:165
-msgid "Eller skriv ditt eget tema..."
+msgid "Or write your own theme..."
 msgstr ""
 
 #: storymaker/ui/window.py:169
@@ -342,7 +342,7 @@ msgid "Stop"
 msgstr ""
 
 #: storymaker/ui/story_view.py:48
-msgid "Hem"
+msgid "Home"
 msgstr ""
 
 #: storymaker/ui/story_view.py:128

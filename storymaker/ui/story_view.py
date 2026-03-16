@@ -45,7 +45,7 @@ class StoryView(Gtk.Box):
 
         # Home button
         home_btn = Gtk.Button(icon_name="go-home-symbolic")
-        home_btn.set_tooltip_text(_("Hem"))
+        home_btn.set_tooltip_text(_("Home"))
         home_btn.connect("clicked", lambda _: self.window.go_home())
         header.pack_end(home_btn)
 

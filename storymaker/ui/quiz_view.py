@@ -168,7 +168,7 @@ class QuizView(Gtk.Box):
         while child := self.question_box.get_first_child():
             self.question_box.remove(child)
 
-        self.progress_label.set_text(_("Resultat"))
+        self.progress_label.set_text(_("Results"))
 
         # Score display
         score_label = Gtk.Label()

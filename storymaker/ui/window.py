@@ -51,7 +51,7 @@ class StoryMakerWindow(Adw.ApplicationWindow):
     def show_profile_editor(self, profile=None):
         """Navigate to profile editor."""
         view = ProfileView(self, profile)
-        page = Adw.NavigationPage(title=_("Profil"), child=view)
+        page = Adw.NavigationPage(title=_("Profile"), child=view)
         self.nav_view.push(page)
 
     def show_story_selector(self, profile):
@@ -162,7 +162,7 @@ class StoryThemeSelector(Gtk.Box):
         custom_box.set_margin_top(12)
 
         self.custom_entry = Gtk.Entry()
-        self.custom_entry.set_placeholder_text(_("Eller skriv ditt eget tema..."))
+        self.custom_entry.set_placeholder_text(_("Or write your own theme..."))
         self.custom_entry.set_hexpand(True)
         custom_box.append(self.custom_entry)
 
