@@ -5,7 +5,7 @@ from pathlib import Path
 
 APP_ID = "org.github.storymaker"
 APP_NAME = "StoryMaker"
-APP_VERSION = "1.0.0"
+APP_VERSION = "0.2.0"
 
 # XDG directories
 DATA_DIR = Path(os.environ.get("XDG_DATA_HOME", Path.home() / ".local" / "share")) / "storymaker"
