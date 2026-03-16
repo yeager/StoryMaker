@@ -37,6 +37,10 @@ class StoryView(Gtk.Box):
             tts_btn = Gtk.Button(icon_name="audio-speakers-symbolic")
             tts_btn.set_tooltip_text(_("Read up"))
             tts_btn.connect("clicked", self._on_tts_clicked)
+            self._stop_btn = Gtk.Button(icon_name="media-playback-stop-symbolic")
+            self._stop_btn.set_tooltip_text(_("Stop"))
+            self._stop_btn.connect("clicked", lambda _: self.tts.stop())
+            header.pack_end(self._stop_btn)
             header.pack_end(tts_btn)
 
         # Home button
@@ -66,6 +70,9 @@ class StoryView(Gtk.Box):
         # Story text area
         self.story_label = Gtk.Label()
         self.story_label.set_wrap(True)
+        self.story_label.set_wrap_mode(2)  # WORD_CHAR
+        self.story_label.set_max_width_chars(60)
+        self.story_label.set_natural_wrap_mode(True) if hasattr(self.story_label, "set_natural_wrap_mode") else None
         self.story_label.set_xalign(0)
         self.story_label.add_css_class("story-text")
         self.story_label.set_selectable(True)
