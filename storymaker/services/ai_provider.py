@@ -70,7 +70,7 @@ Regler:
 
         user = f"Tema: {theme}\nKapitel: {chapter}\n"
         if previous_text:
-            user += f"\Previous in the story:\n{previous_text[-500:]}\n")
+            user += f"\nTidigare i berättelsen:\n{previous_text[-500:]}\n"
         if choice_made:
             user += f"\nBarnet valde: {choice_made}\n"
         user += "\nFortsätt berättelsen:"
@@ -243,7 +243,7 @@ class DemoProvider(AIProvider):
         name = profile.name or "Äventyraren"
         stories = {
             1: {
-                "text": f"{name} stood at the edge of the Enchanted Forest. The trees were so tall that they almost reached the clouds, and between the branches small lights sparkled like stars.\n")Välkommen, {name}!\" ropade en liten uggla som satt på en gren. \"Jag heter Uffe och jag behöver din hjälp. Den magiska boken har försvunnit och utan den kan skogens djur inte prata längre!\"\n\n{name} kände sig modig. Det här var början på ett stort äventyr!",
+                "text": f"{name} stod vid kanten av den Förtrollade Skogen. Träden var så höga att de nästan nådde molnen, och mellan grenarna glittrade små ljus som stjärnor.\n\n\"Välkommen, {name}!\" ropade en liten uggla som satt på en gren. \"Jag heter Uffe och jag behöver din hjälp. Den magiska boken har försvunnit och utan den kan skogens djur inte prata längre!\"\n\n{name} kände sig modig. Det här var början på ett stort äventyr!",
                 "choices": [
                     {"text": "Följ Uffe djupare in i skogen", "emoji": "🌲"},
                     {"text": "Fråga skogens älvor om hjälp", "emoji": "🧚"},
@@ -252,7 +252,7 @@ class DemoProvider(AIProvider):
                 "keywords": ["skog", "uggla", "bok", "träd", "äventyr"],
             },
             2: {
-                "text": f"{name} continued bravely forward. Suddenly a sound was heard behind a large bush. It was a small fox with a golden key around its neck!")Den här nyckeln öppnar vägen till bokens gömställe,\" viskade räven. \"Men vägen dit är inte lätt. Det finns en bro över en flod, och bron vaktas av ett vänligt men gåtfullt troll.\"\n\n{name} tänkte efter noga. Vad skulle vara bäst att göra?",
+                "text": f"{name} fortsatte modigt framåt. Plötsligt hördes ett ljud bakom en stor buske. Det var en liten räv med en gyllene nyckel runt halsen!\n\n\"Den här nyckeln öppnar vägen till bokens gömställe,\" viskade räven. \"Men vägen dit är inte lätt. Det finns en bro över en flod, och bron vaktas av ett vänligt men gåtfullt troll.\"\n\n{name} tänkte efter noga. Vad skulle vara bäst att göra?",
                 "choices": [
                     {"text": "Gå till bron och prata med trollet", "emoji": "🌉"},
                     {"text": "Simma över floden istället", "emoji": "🏊"},
@@ -261,7 +261,7 @@ class DemoProvider(AIProvider):
                 "keywords": ["räv", "nyckel", "bro", "troll", "flod"],
             },
             3: {
-                "text": f"The troll smiled broadly when it saw {name}. \")Välkommen! Jag älskar besök!\" sa trollet. \"Men för att korsa min bro måste du svara på en gåta: Vad har rötter som ingen ser, växer upp men aldrig flyr?\"\n\n{name} tänkte hårt. Plötsligt kom svaret! \"Ett träd!\" ropade {name}.\n\nTrollet klappade i händerna av glädje. \"Rätt svar! Du är verkligen klok. Gå över bron, den magiska boken väntar på dig på andra sidan!\"",
+                "text": f"Trollet log brett när det såg {name}. \"Välkommen! Jag älskar besök!\" sa trollet. \"Men för att korsa min bro måste du svara på en gåta: Vad har rötter som ingen ser, växer upp men aldrig flyr?\"\n\n{name} tänkte hårt. Plötsligt kom svaret! \"Ett träd!\" ropade {name}.\n\nTrollet klappade i händerna av glädje. \"Rätt svar! Du är verkligen klok. Gå över bron, den magiska boken väntar på dig på andra sidan!\"",
                 "choices": [
                     {"text": "Springa över bron direkt", "emoji": "🏃"},
                     {"text": "Tacka trollet och gå försiktigt", "emoji": "🤝"},
@@ -274,7 +274,7 @@ class DemoProvider(AIProvider):
         if chapter >= 5 or (chapter > 3 and "slut" in choice_made.lower()):
             return StoryNode(
                 node_id=f"chapter_{chapter}" if chapter > 1 else "start",
-                text=f"And there, under the big oak tree, {name} found the magic book! It shone in all the colors of the rainbow. When {name} opened it, the whole forest was filled with music and all the animals could talk again.\n\n")Tack, {name}!\" ropade alla djuren i kör. \"Du är vår hjälte!\"\n\n{name} log stort. Det hade varit det bästa äventyret någonsin, och {name} visste att det fanns många fler äventyr att upptäcka i den Förtrollade Skogen.\n\n✨ SLUT ✨",
+                text=f"Och där, under den stora eken, hittade {name} den magiska boken! Den lyste i alla regnbågens färger. När {name} öppnade den fylldes hela skogen med musik och alla djuren kunde prata igen.\n\n\"Tack, {name}!\" ropade alla djuren i kör. \"Du är vår hjälte!\"\n\n{name} log stort. Det hade varit det bästa äventyret någonsin, och {name} visste att det fanns många fler äventyr att upptäcka i den Förtrollade Skogen.\n\n✨ SLUT ✨",
                 choices=[],
                 keywords=["bok", "skog", "regnbåge", "djur", "hjälte"],
                 is_ending=True,
