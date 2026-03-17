@@ -1,17 +1,16 @@
+# Translation file for StoryMaker
 msgid ""
 msgstr ""
-"Project-Id-Version: storymaker 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-03-16 12:00+0100\n"
-"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
-"Language-Team: Swedish\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Interactive stories with AI and pictograms for reading comprehension training"
-msgstr "Interaktiva berättelser med AI och piktogram för läsförståelseträning"
+msgid "Story Library"
+msgstr "Berättelsebibliotek"
+
+msgid "Settings"
+msgstr "Inställningar"
 
 msgid "Create magical stories with AI!"
 msgstr "Skapa magiska berättelser med AI!"
@@ -25,273 +24,65 @@ msgstr "➕ Ny läsare"
 msgid "year"
 msgstr "år"
 
+msgid "Spela"
+msgstr "Spela"
+
+msgid "Progress"
+msgstr "Förlopp"
+
+msgid "Edit"
+msgstr "Redigera"
+
 msgid "📝 Reading comprehension"
 msgstr "📝 Läsförståelse"
 
 msgid "Could not create quiz. Please try again!"
-msgstr "Kunde inte skapa quiz. Försök igen!"
+msgstr "Det gick inte att skapa testet. Försök igen!"
 
 msgid "Question"
 msgstr "Fråga"
 
+msgid "Results"
+msgstr "Resultat"
+
 msgid "🌟 Fantastic! You understood the story very well!"
-msgstr "🌟 Fantastiskt! Du förstod berättelsen jättebra!"
+msgstr "🌟 Fantastiskt! Du har verkligen förstått historien!"
 
 msgid "👍 Good job! You understood most of it!"
-msgstr "👍 Bra jobbat! Du förstod det mesta!"
+msgstr "👍 Bra jobbat! Du förstod nästan allt!"
 
 msgid "💪 Nice try! Read the story again and then try!"
-msgstr "💪 Bra försök! Läs berättelsen igen och försök sen!"
+msgstr "💪 Bra försök! Läs berättelsen igen och försök sedan!"
+
+msgid "🏠 Home"
+msgstr "🏠 Hem"
+
+msgid "Profiles"
+msgstr "Profiler"
 
 msgid "Select adventure"
-msgstr "Select äventyr"
+msgstr "Välj äventyr"
 
 msgid "Reading comprehension"
 msgstr "Läsförståelse"
 
 msgid "Select a theme for your story!"
-msgstr "Select ett tema för din berättelse!"
+msgstr "Välj ett tema för din berättelse!"
 
-msgid "AI settings"
-msgstr "AI-inställningar"
+msgid "Or write your own theme..."
+msgstr "Eller skriv ditt egna tema..."
 
-msgid "Select AI service and enter API key. Without a key, demo mode is used."
-msgstr "Select AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."
-
-msgid "AI service"
-msgstr "AI-tjänst"
-
-msgid "Reading out (TTS)"
-msgstr "Uppläsning (TTS)"
-
-msgid "Available"
-msgstr "Tillgänglig"
-
-msgid "Not available"
-msgstr "Ej tillgänglig"
-
-msgid "Install espeak-ng for reading aloud"
-msgstr "Install espeak-ng för uppläsning"
-
-msgid "Interactive stories with AI and pictograms"
-msgstr "Interaktiva berättelser med AI och piktogram"
-
-msgid "Save settings"
-msgstr "Save inställningar"
-
-msgid "Age"
-msgstr "Ålder"
-
-msgid "All stories and progress for {name} will be deleted."
-msgstr "Alla berättelser och framsteg för {name} kommer att raderas."
-
-msgid "Read up"
-msgstr "Läs upp"
-
-msgid "Could not create the story. Try again!"
-msgstr "Kunde inte skapa berättelsen. Försök igen!"
-
-msgid "What will happen next?"
-msgstr "Vad ska hända nu?"
-
-msgid "Something went wrong. Try again!"
-msgstr "Något gick fel. Försök igen!"
-
-msgid "🎉 Congratulations! You have finished the story!"
-msgstr "🎉 Grattis! Du har avslutat berättelsen!"
-
-msgid "📝 Take the quiz!"
-msgstr "📝 Gör quiz!"
-
-msgid "Try again"
-msgstr "Försök igen"
-
-msgid "Level"
-msgstr "Nivå"
-
-msgid "Narratives"
-msgstr "Berättelser"
-
-msgid "Words read"
-msgstr "Ord lästa"
-
-msgid "Chapters read"
-msgstr "Kapitel lästa"
-
-msgid "Quizzes completed"
-msgstr "Quiz genomförda"
-
-msgid "Average score"
-msgstr "Genomsnittlig poäng"
-
-msgid "Reading progress"
-msgstr "Läsframsteg"
-
-msgid "Goal: Read 5000 words!"
-msgstr "Mål: Läs 5000 ord!"
-
-msgid "Latest stories"
-msgstr "Senaste berättelser"
-
-msgid "Beginners"
-msgstr "Nybörjare"
-
-msgid "Readers"
-msgstr "Läsare"
-
-msgid "Master"
-msgstr "Mästare"
-
-msgid "AI-inställningar"
-msgstr "AI-inställningar"
-
-msgid "AI-tjänst"
-msgstr "AI-tjänst"
-
-msgid "API-nyckel"
-msgstr "API-nyckel"
-
-msgid "Alla berättelser och framsteg för {name} kommer att raderas."
-msgstr "Alla berättelser och framsteg för {name} kommer att raderas."
-
-msgid "Avbryt"
-msgstr "Cancel"
-
-msgid "Berättelser"
-msgstr "Berättelser"
-
-msgid "Ej tillgänglig"
-msgstr "Ej tillgänglig"
-
-msgid "Eller skriv ditt eget tema..."
-msgstr "Eller skriv ditt eget tema..."
-
-msgid "Framsteg"
-msgstr "Framsteg"
-
-msgid "Genomsnittlig poäng"
-msgstr "Genomsnittlig poäng"
-
-msgid "Installera espeak-ng för uppläsning"
-msgstr "Install espeak-ng för uppläsning"
-
-msgid "Inställningar"
-msgstr "Settings"
-
-msgid "Inställningar sparade!"
-msgstr "Settings sparade!"
-
-msgid "Interaktiva berättelser med AI och piktogram"
-msgstr "Interaktiva berättelser med AI och piktogram"
-
-msgid "Kapitel lästa"
-msgstr "Kapitel lästa"
-
-msgid "Läsframsteg"
-msgstr "Läsframsteg"
-
-msgid "Läsförståelse"
-msgstr "Läsförståelse"
-
-msgid "Mål: Läs 5000 ord!"
-msgstr "Mål: Läs 5000 ord!"
-
-msgid "Namn"
-msgstr "Name"
-
-msgid "Om StoryMaker"
-msgstr "About StoryMaker"
-
-msgid "Om dig"
-msgstr "About dig"
-
-msgid "Ord lästa"
-msgstr "Ord lästa"
-
-msgid "Profil"
-msgstr "Profil"
-
-msgid "Quiz genomförda"
-msgstr "Quiz genomförda"
-
-msgid "Redigera"
-msgstr "Edit"
-
-msgid "Senaste berättelser"
-msgstr "Senaste berättelser"
-
-msgid "Skapa magiska berättelser med AI!"
-msgstr "Skapa magiska berättelser med AI!"
-
-msgid "Spara"
-msgstr "Save"
-
-msgid "Spara inställningar"
-msgstr "Save inställningar"
-
-msgid "Spela"
-msgstr "Spela"
-
-msgid "Språk"
-msgstr "Language"
-
-msgid "Starta!"
-msgstr "Starta!"
-
-msgid "Statistik"
-msgstr "Statistics"
-
-msgid "Ta bort"
-msgstr "Delete"
-
-msgid "Ta bort profil?"
-msgstr "Delete profil?"
-
-msgid "Text-till-tal"
-msgstr "Text-till-tal"
-
-msgid "Tillgänglig"
-msgstr "Tillgänglig"
-
-msgid "Uppläsning (TTS)"
-msgstr "Uppläsning (TTS)"
-
-msgid "Vad tycker du om?"
-msgstr "Vad tycker du om?"
-
-msgid "Vem läser idag?"
-msgstr "Vem läser idag?"
-
-msgid "Välj AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."
-msgstr "Select AI-tjänst och ange API-nyckel. Utan nyckel används demo-läge."
-
-msgid "Välj din avatar"
-msgstr "Select din avatar"
-
-msgid "Välj ett tema för din berättelse!"
-msgstr "Select ett tema för din berättelse!"
-
-msgid "Välj äventyr"
-msgstr "Select äventyr"
-
-msgid "Ålder"
-msgstr "Ålder"
-
-msgid "➕ Ny läsare"
-msgstr "➕ Ny läsare"
-
-# Library functionality
-msgid "Story Library"
-msgstr "Berättelsebibliotek"
+msgid "Start!"
+msgstr "Börja!"
 
 msgid "Refresh catalog"
 msgstr "Uppdatera katalog"
 
 msgid "Loading catalog..."
-msgstr "Laddar katalog..."
+msgstr "Läser in katalog..."
 
 msgid "Online Catalog"
-msgstr "Online-katalog"
+msgstr "Nätkatalog"
 
 msgid "Language:"
 msgstr "Språk:"
@@ -300,35 +91,239 @@ msgid "All"
 msgstr "Alla"
 
 msgid "Downloaded Stories"
-msgstr "Nedladdade berättelser"
+msgstr "Hämtade berättelser"
 
 msgid "Found {count} stories in catalog"
 msgstr "Hittade {count} berättelser i katalogen"
 
-msgid "Download"
-msgstr "Ladda ner"
-
 msgid "Downloaded"
-msgstr "Nedladdad"
+msgstr "Hämtade"
 
-msgid "Downloading..."
-msgstr "Laddar ner..."
+msgid "Download"
+msgstr "Hämta"
 
 msgid "Play"
-msgstr "Spela"
+msgstr "Spela upp"
 
 msgid "Delete"
-msgstr "Radera"
+msgstr "Ta bort"
+
+msgid "Downloading..."
+msgstr "Hämtar ner..."
 
 msgid "Delete story?"
-msgstr "Radera berättelse?"
+msgstr "Ta bort berättelse?"
 
 msgid "This will permanently delete '{title}' from your device."
-msgstr "Detta kommer att permanent radera '{title}' från din enhet."
+msgstr "Detta kommer att permanent ta bort '{title}' från din enhet."
 
 msgid "Cancel"
 msgstr "Avbryt"
 
 msgid "Failed to load catalog: {error}"
-msgstr "Kunde inte ladda katalog: {error}"
+msgstr "Misslyckades med att läsa in katalog: {error}"
+
+msgid "Voice and Reading"
+msgstr "Röst och uppläsning"
+
+msgid "Settings for text-to-speech reading"
+msgstr "Inställningar för uppläsning med text-till-tal"
+
+msgid "Story language"
+msgstr "Berättelsespråk"
+
+msgid "Swedish"
+msgstr "Svenska"
+
+msgid "English"
+msgstr "Engelska"
+
+msgid "English voice"
+msgstr "Engelsk röst"
+
+msgid "Female (Lessac)"
+msgstr "Kvinnlig (Lessac)"
+
+msgid "Male (Ryan)"
+msgstr "Manlig (Ryan)"
+
+msgid "Piper TTS available"
+msgstr "Piper TTS tillgänglig"
+
+msgid "Piper TTS not found"
+msgstr "Piper TTS hittades inte"
+
+msgid "TTS Engine"
+msgstr "Talsyntesmotor"
+
+msgid "Read aloud automatically"
+msgstr "Läs högt automatiskt"
+
+msgid "Read each chapter aloud when it appears"
+msgstr "Läs varje kapitel högt när det visas"
+
+msgid "AI Story Generation"
+msgstr "Generera berättelser med AI"
+
+msgid "Without API key, pre-made stories and demo mode are used."
+msgstr "Utan API-nyckel används färdiga berättelser och demoläge."
+
+msgid "AI service"
+msgstr "AI-tjänst"
+
+msgid "Demo (no key needed)"
+msgstr "Demo (ingen nyckel krävs)"
+
+msgid "API key"
+msgstr "API-nyckel"
+
+msgid "Display"
+msgstr "Visning"
+
+msgid "Text size"
+msgstr "Textstorlek"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Large"
+msgstr "Stor"
+
+msgid "Extra large"
+msgstr "Extra stor"
+
+msgid "Show pictograms"
+msgstr "Visa piktogram"
+
+msgid "Display ARASAAC pictograms alongside story text"
+msgstr "Visa ARASAAC-piktogram bredvid berättelsetexten"
+
+msgid "About"
+msgstr "Om"
+
+msgid "Interactive stories for children with AI and Piper TTS"
+msgstr "Interaktiva berättelser för barn med AI och Piper TTS"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Settings saved"
+msgstr "Inställningar sparades"
+
+msgid "Select your avatar"
+msgstr "Välj din avatar"
+
+msgid "About dig"
+msgstr "Om dig"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Age"
+msgstr "Ålder"
+
+msgid "Language"
+msgstr "Språk"
+
+msgid "What do you think?"
+msgstr "Vad tror du?"
+
+msgid "Delete profile?"
+msgstr "Ta bort profil?"
+
+msgid "All stories and progress for {name} will be deleted."
+msgstr "Alla berättelser och framsteg för {name} kommer att raderas."
+
+msgid "Read up"
+msgstr "Läs upp"
+
+msgid "Stop"
+msgstr "Stoppa"
+
+msgid "Home"
+msgstr "Hem"
+
+msgid "Could not create the story. Try again!"
+msgstr "Kunde inte skapa berättelsen. Försök igen!"
+
+msgid "Slutet"
+msgstr "Slutet"
+
+msgid "Kapitel"
+msgstr "Kapitel"
+
+msgid "What will happen next?"
+msgstr "Vad kommer att hända härnäst?"
+
+msgid "Something went wrong. Try again!"
+msgstr "Något gick fel. Försök igen!"
+
+msgid "🎉 Congratulations! You have finished the story!"
+msgstr "🎉 Grattis! Du har läst färdigt berättelsen!"
+
+msgid "📝 Take the quiz!"
+msgstr "📝 Gör testet!"
+
+msgid "🏠 Back home"
+msgstr "🏠 Tillbaka hem"
+
+msgid "Try again"
+msgstr "Försök igen"
+
+msgid "Level"
+msgstr "Nivå"
+
+msgid "Statistics"
+msgstr "Statistik"
+
+msgid "Narratives"
+msgstr "Berättelser"
+
+msgid "avslutade"
+msgstr "avslutade"
+
+msgid "totalt"
+msgstr "totalt"
+
+msgid "Words read"
+msgstr "Ord lästa"
+
+msgid "Chapters read"
+msgstr "Kapitel lästa"
+
+msgid "Quizzes completed"
+msgstr "Test färdigställda"
+
+msgid "Average score"
+msgstr "Genomsnittlig poäng"
+
+msgid "Reading progress"
+msgstr "Läsförlopp"
+
+msgid "ord"
+msgstr "ord"
+
+msgid "Goal: Read 5000 words!"
+msgstr "Mål: Läs 5000 ord!"
+
+msgid "Latest stories"
+msgstr "Senaste berättelser"
+
+msgid "kapitel"
+msgstr "kapitel"
+
+msgid "Beginners"
+msgstr "Nybörjare"
+
+msgid "Readers"
+msgstr "Läsare"
+
+msgid "Bokmal"
+msgstr "Bokmal"
+
+msgid "Master"
+msgstr "Mästare"
+
+msgid "Interactive stories with AI and pictograms for reading comprehension training"
+msgstr "Interaktiva berättelser med AI och piktogram för träning i läsförståelse"
 
